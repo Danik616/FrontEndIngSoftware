@@ -18,8 +18,6 @@ const Login = () => {
 
   const { signin, errors: serverErrors, isAuthenticated } = useAuth();
 
-  serverErrors;
-
   useEffect(() => {
     isAuthenticated;
     if (isAuthenticated) return navigate('/pqrs');
