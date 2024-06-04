@@ -2,7 +2,6 @@ import SimplePage from '../components/SimplePage';
 import Typography from '../components/Typography';
 import { useForm } from 'react-hook-form';
 import api from '../hooks/axios';
-import { Form } from 'react-router-dom';
 
 const FormPQRS = () => {
   const {
